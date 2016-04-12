@@ -1,0 +1,13 @@
+
+DECLARE
+   
+BEGIN
+FOR I IN 1..10500 LOOP
+  createCustomer(I);
+  CreateProductGroup(I);
+  CREATEPRODUCT(I);
+  GENERATE_SALES_FACT_TABLE(I);
+END LOOP;
+END;
+
+COMMIT;
