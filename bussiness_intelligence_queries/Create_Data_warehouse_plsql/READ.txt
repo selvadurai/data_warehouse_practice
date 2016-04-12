@@ -1,4 +1,4 @@
 data was created through a pl/sql script
 10,500 rows of data was entered. 
 
-generated_data_tables.sql is the main block that generated all the data into the warehouse
+generated_data_tables.sql is the main block that generates all  data into the warehouse
